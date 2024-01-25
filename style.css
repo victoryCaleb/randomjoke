@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yelloeclr: #fdc12a;
+    --border-radius: 10px
+}
+
+body {
+    background-color: var(--yelloeclr);
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+
+.btn {
+    background-color: var(--yelloeclr);
+    color: black;
+    padding: 10px;
+    font: inherit;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    cursor:pointer ;
+}
+
+.main {
+    width: 80vw;
+    max-width: 700px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: black;
+    margin-top: 20vh;
+    border-radius: var(--border-radius);
+}
+
+.joke {
+    width: 90%;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    text-transform: none;
+}
+
+.emoji {
+    width: 200px;
+    height: auto;
+}
